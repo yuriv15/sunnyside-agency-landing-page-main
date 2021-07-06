@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 375px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#container-menu {
+    background-image: url(../images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 40px 30px;
+    min-height: 538px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-list {
+    display: none;
+}
+
+#title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.4rem;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    margin: 67px 0;
+    letter-spacing: 0.2em;
+}
+
+#transform, #stand-out{
+    width: 100%;
+}
+
+.subtitle{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 1.7em;
+    margin-top: 0px;
+}
+
+.description{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0 15px 60px 15px;
+}
+
+#transform-container .description, #stand-out-container .description{
+    color: hsl(210, 4%, 67%);
+    font-size: 1.05em;
+    padding-bottom: 40px;
+}
+
+
+#transform-container .subtitle, #stand-out-container .subtitle{
+    font-size: 2.2rem;
+    margin-top: 60px;
+}
+
+#transform-container, #stand-out-container{
+    padding-bottom: 60px;
+}
+
+.learn-link{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 6px;
+    text-underline-offset: -3px;
+    font-size: 1rem;
+}
+
+#transform-container .learn-link{
+    text-decoration-color: hsla(51, 100%, 49%, 0.37);
+}
+
+#transform-container .learn-link:visited{
+    color:black;
+}
+
+#stand-out-container .learn-link{
+    text-decoration-color: hsla(7, 99%, 70%, 0.37);
+}
+
+#stand-out-container .learn-link:visited{
+    color: black;
+}
+
+#graphic-design, #photography{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#graphic-design{
+    background-image: url(../images/mobile/image-graphic-design.jpg);
+    color: hsl(167, 40%, 24%);
+}
+
+#photography{
+    background-image: url(../images/mobile/image-photography.jpg);
+    color: hsl(198, 62%, 26%);
+}
+
+.testimonial-subtitle{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 60px 0;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 0.2rem;
+}
+
+.author-photo{
+    border-radius: 50%;
+    width: 70px;
+}
+
+.testimonial{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: hsl(213, 9%, 39%);
+    font-size: 19px;
+    padding: 15px;
+}
+
+.author{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}
+
+.ocupation{
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.9rem;
+    color: hsl(210, 4%, 67%);
+    margin-bottom: 70px;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#gallery img{
+    width: 100%;
+}
+
+footer{
+    background-color: hsl(165, 44%, 68%);
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: hsl(167, 40%, 24%);
+}
+
+#footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+}
+
+#social-networks{
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-network{
+    margin: 0 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
